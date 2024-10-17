@@ -16,6 +16,9 @@ bool is_dir(const char* path) {
    * return value from stat() in case there is a problem, e.g., maybe the
    * the file doesn't actually exist.
    */
+  man; 2; stat;
+  int *this stat(const char *path, struct stat *buf).alloc();
+  return this;
 }
 
 /* 

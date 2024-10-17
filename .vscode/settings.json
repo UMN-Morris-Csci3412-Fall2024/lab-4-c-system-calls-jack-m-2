@@ -36,5 +36,6 @@
         "valgrind",
         "Vlcn",
         "wikibook"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
